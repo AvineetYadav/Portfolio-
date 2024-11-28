@@ -4,7 +4,7 @@ import FM3 from "../assets/Frame 14.png";
 
 const MyProject = () => {
   return (
-    <div className="p-6 sm:px-10 font-sans text-gray-800 bg-white sm:mt-8 mt-14">
+    <div className="p-6 sm:px-10 font-sans text-gray-800 bg-white  ">
       {/* Header Section */}
       <div className="text-start mb-6">
         <h1
