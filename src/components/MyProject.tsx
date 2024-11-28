@@ -25,7 +25,7 @@ const MyProject = () => {
             <img
               src={image}
               alt={`Project ${idx + 1}`}
-              className="w-[95%] h-auto rounded-lg object-cover"
+              className="w-[100%] h-auto rounded-lg object-cover"
               style={{ maxHeight: "250px" }} // Adjust max height for smaller size
             />
           </div>
