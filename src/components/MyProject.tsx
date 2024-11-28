@@ -4,7 +4,7 @@ import FM3 from "../assets/Frame 14.png";
 
 const MyProject = () => {
   return (
-    <div className="p-6 sm:px-10 font-sans text-gray-800 bg-white mt-14">
+    <div className="p-6 sm:px-10 font-sans text-gray-800 bg-white sm:mt-8 mt-14">
       {/* Header Section */}
       <div className="text-start mb-6">
         <h1
@@ -25,7 +25,7 @@ const MyProject = () => {
             <img
               src={image}
               alt={`Project ${idx + 1}`}
-              className="w-[85%] h-auto rounded-lg object-cover"
+              className="w-[95%] h-auto rounded-lg object-cover"
               style={{ maxHeight: "250px" }} // Adjust max height for smaller size
             />
           </div>

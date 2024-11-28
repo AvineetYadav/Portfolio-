@@ -3,7 +3,7 @@ import DOWNLOAD from "../assets/download-03-svgrepo-com.svg";
 
 const Profile = () => {
   return (
-    <div className="flex lg:bg-[#aed6f1] flex-col items-center justify-center h-full px-6 sm:px-8">
+    <div className="flex lg:bg-[#aed6f1] flex-col items-center justify-center h-full px-6 sm:px-8 sm:mt-8">
       {/* Profile Image */}
       <div className="relative w-44 h-44 sm:w-52 sm:h-52 lg:w-64 lg:h-64 mb-6 cursor-pointer">
         <img
@@ -16,7 +16,7 @@ const Profile = () => {
 
       {/* Profile Name and Short Bio */}
       <div className="text-center mb-4">
-        <h1 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-gray-800 leading-tight tracking-tight">
+        <h1 className="text-2xl sm:text-5xl lg:text-4xl font-extrabold text-gray-800 leading-tight tracking-tight">
           Avineet Yadav
         </h1>
         <p className="text-sm sm:text-base lg:text-lg text-gray-600 mt-2">
