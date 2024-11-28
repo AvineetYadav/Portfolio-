@@ -1,5 +1,5 @@
-import IMG from "/CODE'S/Portfolio/src/assets/uQsAxsHS_400x400.jpg";
-import DOWNLOAD from "/CODE'S/Portfolio/src/assets/download-03-svgrepo-com.svg";
+import IMG from "../assets/uQsAxsHS_400x400.jpg";
+import DOWNLOAD from "../assets/download-03-svgrepo-com.svg";
 
 const Profile = () => {
   return (

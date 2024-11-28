@@ -1,6 +1,6 @@
-import FM1 from "/CODE'S/Portfolio/src/assets/Frame 1212.png";
-import FM2 from "/CODE'S/Portfolio/src/assets/Frame 13.png";
-import FM3 from "/CODE'S/Portfolio/src/assets/Frame 14.png";
+import FM1 from "../assets/Frame 1212.png";
+import FM2 from "../assets/Frame 13.png";
+import FM3 from "../assets/Frame 14.png";
 
 const MyProject = () => {
   return (

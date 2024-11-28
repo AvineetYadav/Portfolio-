@@ -1,5 +1,5 @@
-import FM5 from "/CODE'S/Portfolio/src/assets/Frame 15.png";
-import FM10 from "/CODE'S/Portfolio/src/assets/Frame 10.png";
+import FM5 from "../assets/Frame 15.png";
+import FM10 from "../assets/Frame 10.png";
 
 const MySocials = () => {
   return (
