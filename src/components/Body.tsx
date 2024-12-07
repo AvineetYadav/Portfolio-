@@ -9,7 +9,7 @@ const Body = () => {
         <Profile />
       </div>
       {/* Left Side: Projects & Socials */}
-      <div className="flex-1 flex flex-col ml-16 lg:overflow-y-auto">
+      <div className="flex-1 flex flex-col lg:ml-16 lg:overflow-y-auto ">
         <MyProject />
         <MySocials />
       </div>

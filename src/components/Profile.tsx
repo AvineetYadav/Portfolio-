@@ -3,7 +3,7 @@ import DOWNLOAD from "../assets/download-03-svgrepo-com.svg";
 
 const Profile = () => {
   return (
-    <div className="flex lg:bg-[#aed6f1]  flex-col items-center justify-center h-full px-6 sm:px-8 ">
+    <div className="flex lg:bg-[#aed6f1] flex-col items-center justify-center h-full px-6 sm:px-8 mt-8 sm:mt-12 lg:mt-0">
       {/* Profile Image */}
       <div className="relative w-44 h-44 sm:w-52 sm:h-52 lg:w-64 lg:h-64 mb-6 cursor-pointer">
         <img
