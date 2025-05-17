@@ -9,10 +9,10 @@ const MyProject = () => {
   return (
     <div className="px-4 sm:px-10 font-sans cursor-pointer bg-white text-gray-800 lg:w-[92%] sm:w-[100%]">
       <div className="py-4 px-2 text-start">
-        <h1 className="text-xl  font-bold mb-2">🦅 My Projects</h1>
+        <h1 className="text-xl  font-bold mb-2 ml-2">🦅 My Projects</h1>
       </div>
 
-      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:gap-6 gap-4">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:gap-6 gap-6">
         {/* Project 1 */}
         <div className="flex flex-col items-center">
           <a

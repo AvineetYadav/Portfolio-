@@ -13,12 +13,12 @@ const LocationWidget = () => {
   };
 
   return (
-    <div className="px-4 sm:px-[50px] mt-14  !pt-0 mb-2 font-sans bg-white text-gray-800 lg:w-[92%] sm:w-full lg:mt-8">
+    <div className="px-4 sm:px-[50px] mt-14  !pt-0 mb-2 font-sans bg-white text-gray-800 lg:w-[92%] sm:w-full lg:mt-8 ">
       <div className="py-4 px-2 text-start">
-        <h1 className="text-xl font-bold mb-2">📍 My Location</h1>
+        <h1 className="text-xl font-bold mb-2 ">📍 My Location</h1>
       </div>
 
-      <div className="flex flex-col md:flex-row justify-center items-center gap-6 md:gap-10">
+      <div className="flex flex-col md:flex-row justify-center items-center gap-8 md:gap-10 ">
         {/* Quote Card */}
         <div className="bg-white rounded-xl p-6 flex flex-col justify-center w-full max-w-[380px] h-[178px] border-2">
           <div className="text-4xl font-bold text-gray-800 mb-2">"</div>
