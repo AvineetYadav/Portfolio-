@@ -3,54 +3,47 @@ import DOWNLOAD from "../assets/download-03-svgrepo-com.svg";
 
 const Profile = () => {
   return (
-    <div className="flex flex-col items-center justify-center h-full px-6 sm:px-8 mt-8 sm:mt-12 lg:mt-0 lg:bg-[#aed6f1]">
-      {/* Profile Image Section */}
-      <div className="relative w-44 h-44 sm:w-52 sm:h-52 lg:w-64 lg:h-64 mb-6">
+    <div className="flex flex-col lg:mt-[60px] items-start justify-start min-h-auto sm:min-h-screen p-6 pb-2 sm:pb-12 sm:p-12 font-sans text-left bg-white">
+      {/* Profile Image */}
+      <div className="w-24 h-24 sm:w-40 sm:h-40 lg:w-48 lg:h-48 mb-6">
         <img
           src={IMG}
-          alt="Profile Picture of Avineet Yadav"
-          className="w-full h-full object-cover rounded-full border-4 border-gray-300 shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out"
+          alt="Avineet Yadav Profile"
+          className="w-full h-full object-cover rounded-full shadow-md border border-gray-200"
         />
-        <div className="absolute inset-0 rounded-full border-2 border-black/20 hover:border-black/40 transition-all"></div>
       </div>
 
-      {/* Profile Name and Short Bio */}
-      <div className="text-center mb-4">
-        <h1 className="text-3xl lg:text-4xl font-extrabold text-gray-800 leading-tight tracking-tight">
-          Avineet Yadav
-        </h1>
-        <p className="mt-2 text-sm sm:text-base lg:text-lg text-gray-600">
-          💡 I’m a coder & designer
+      {/* Name */}
+      <h1 className="text-2xl sm:text-5xl font-extrabold text-gray-900 mb-2 leading-tight">
+        Avineet Yadav
+      </h1>
+
+      {/* Short Tagline - force single line */}
+      <p className="text-gray-600 text-sm sm:text-lg mt-2 sm:mt-[10px] whitespace-nowrap overflow-hidden text-ellipsis mb-3 sm:mb-5 max-w-full">
+        👨‍💻 Developer | 🧠 Learner | 💡 Problem Solver
+      </p>
+
+      {/* Personal Summary */}
+      <div className="max-w-full sm:max-w-2xl text-gray-700 text-sm sm:text-[20px] leading-[1.6] sm:leading-[1.8] mb-5 sm:mb-8">
+        <p>
+          Passionate about building impactful digital experiences. Exploring{' '}
+          <span style={{ color: '#565656', fontWeight: 600 }}>
+            Full-stack development
+          </span>
+          , design, and everything in between.
         </p>
       </div>
 
-      {/* Profile Description */}
-      <div className="max-w-md text-center mt-2">
-        <p className="text-sm sm:text-base lg:text-lg text-gray-700 italic leading-relaxed">
-          "I’m a full-stack web developer and designer, crafting seamless and
-          stunning digital experiences."
-        </p>
-      </div>
-
-      {/* Download Resume Button */}
-      <div className="flex justify-center items-center py-4">
-        <a
-          href="https://drive.google.com/file/d/1wpS5ki-cbAbDS7jJIhYzmC_MzGvNm1LG/view"
-          target="_blank"
-          rel="noopener noreferrer" 
-          download="Avineet_Yadav_Resume.pdf"
-          className="flex items-center bg-gradient-to-r from-black via-gray-800 to-black text-white px-6 py-2 sm:px-8 sm:py-3 rounded-lg hover:scale-95 hover:shadow-inner transition-all duration-300 mt-3 font-semibold tracking-wider"
-          aria-label="Download Avineet Yadav's Resume"
-          title="Download Resume"
-        >
-          Download Resume
-          <img
-            src={DOWNLOAD}
-            alt="Download Icon"
-            className="ml-2 w-5 h-5 sm:w-6 sm:h-6"
-          />
-        </a>
-      </div>
+      {/* Resume Button */}
+      <a
+        href="https://drive.google.com/file/d/1wpS5ki-cbAbDS7jJIhYzmC_MzGvNm1LG/view"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-flex items-center bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 sm:px-6 sm:py-3 rounded-lg transition duration-300 shadow-sm"
+      >
+        <span className="text-sm sm:text-base font-medium">Download Resume</span>
+        <img src={DOWNLOAD} alt="Download" className="w-4 h-4 sm:w-5 sm:h-5 ml-2" />
+      </a>
     </div>
   );
 };

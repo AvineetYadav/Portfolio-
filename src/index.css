@@ -2,3 +2,38 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+  }
+
+  /* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 4px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+  }
+  
+  .quotes {
+    border:1px solid lightgray;
+    border-radius:20px;
+  }
+
+  @media (max-width: 1023px) { /* Tailwind's lg breakpoint is 1024px */
+  .right-panel > .section-appear {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+}
