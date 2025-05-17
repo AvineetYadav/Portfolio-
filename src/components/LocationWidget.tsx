@@ -13,7 +13,7 @@ const LocationWidget = () => {
   };
 
   return (
-    <div className="px-4 sm:px-[50px] mt-10  !pt-0 mb-2 font-sans bg-white text-gray-800 lg:w-[92%] sm:w-full lg:mt-8">
+    <div className="px-4 sm:px-[50px] mt-14  !pt-0 mb-2 font-sans bg-white text-gray-800 lg:w-[92%] sm:w-full lg:mt-8">
       <div className="py-4 px-2 text-start">
         <h1 className="text-xl font-bold mb-2">📍 My Location</h1>
       </div>
