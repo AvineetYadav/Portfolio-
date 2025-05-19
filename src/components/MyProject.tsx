@@ -77,22 +77,6 @@ const MyProject = () => {
           </a>
         </div>
 
-        {/* Project 5 */}
-        <div className="flex flex-col items-center">
-          <a
-            href="https://youtube-clone-omega-ten.vercel.app/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="block"
-          >
-            <img
-              src={FM5}
-              alt="Project 5"
-              className="w-full max-w-[380px] h-[178px] object-contain rounded-lg transition-all duration-300 ease-in-out hover:filter hover:grayscale-10 hover:brightness-95"
-            />
-          </a>
-        </div>
-
         {/* Project 6 */}
         <div className="flex flex-col items-center">
           <a
