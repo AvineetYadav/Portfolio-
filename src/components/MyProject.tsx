@@ -2,7 +2,6 @@ import FM1 from "../assets/Frame 17.png";
 import FM2 from "../assets/Frame 17-1.png";
 import FM3 from "../assets/Frame 17-2.png";
 import FM4 from "../assets/Frame 19.png";
-import FM5 from "../assets/Frame  444.png";
 import FM6 from "../assets/Frame 4343.png";
 
 const MyProject = () => {
