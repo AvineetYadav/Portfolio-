@@ -36,7 +36,7 @@ const Profile = () => {
 
       {/* Resume Button */}
       <a
-        href="https://drive.google.com/file/d/1wpS5ki-cbAbDS7jJIhYzmC_MzGvNm1LG/view"
+        href="https://drive.google.com/file/d/1L6QVdQD7hTAI-UY1IQwlb1m4HgtkqLTj/view"
         target="_blank"
         rel="noopener noreferrer"
         className="inline-flex items-center bg-indigo-600 hover:bg-indigo-700 text-white px-5 py-2.5 sm:px-6 sm:py-3 rounded-lg transition duration-300 shadow-sm"

@@ -14,7 +14,7 @@ const MySocials = () => {
         {/* Instagram */}
         <div className="flex flex-col items-center">
           <a
-            href="https://www.instagram.com/avineet_05/"
+            href="https://www.instagram.com/_.avineet/"
             target="_blank"
             rel="noopener noreferrer"
             className="block"
@@ -30,7 +30,7 @@ const MySocials = () => {
         {/* LinkedIn */}
         <div className="flex flex-col items-center">
           <a
-            href="https://www.linkedin.com/in/avineet-yadav-10068a289/recent-activity/all/"
+            href="https://www.linkedin.com/in/avineet-yadav-10068a289/"
             target="_blank"
             rel="noopener noreferrer"
             className="block"
@@ -62,7 +62,7 @@ const MySocials = () => {
         {/* Extra GitHub Image */}
         <div className="flex flex-col items-center">
           <a
-            href="https://github.com/AvineetYadav"
+            href="https://x.com/Avineet_"
             target="_blank"
             rel="noopener noreferrer"
             className="block"

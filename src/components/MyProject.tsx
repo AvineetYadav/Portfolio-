@@ -15,7 +15,7 @@ const MyProject = () => {
         {/* Project 1 */}
         <div className="flex flex-col items-center">
           <a
-            href="https://github.com/AvineetYadav/Hungry-Hippo"
+            href="https://chat-app-zeta-three-76.vercel.app"
             target="_blank"
             rel="noopener noreferrer"
             className="block"
@@ -31,7 +31,7 @@ const MyProject = () => {
         {/* Project 2 */}
         <div className="flex flex-col items-center">
           <a
-            href="#"
+            href="https://github.com/AvineetYadav/Hungry-Hippo"
             target="_blank"
             rel="noopener noreferrer"
             className="block"
@@ -47,7 +47,7 @@ const MyProject = () => {
         {/* Project 3 */}
         <div className="flex flex-col items-center">
           <a
-            href="https://youtube-clone-omega-ten.vercel.app/"
+            href="https://youtube-clone-two-ivory.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="block"
@@ -63,7 +63,7 @@ const MyProject = () => {
         {/* Project 4 */}
         <div className="flex flex-col items-center">
           <a
-            href="https://youtube-clone-omega-ten.vercel.app/"
+            href="https://one-draw.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="block"
@@ -79,7 +79,7 @@ const MyProject = () => {
         {/* Project 6 */}
         <div className="flex flex-col items-center">
           <a
-            href="https://youtube-clone-omega-ten.vercel.app/"
+            href="https://evenly-sigma.vercel.app"
             target="_blank"
             rel="noopener noreferrer"
             className="block"

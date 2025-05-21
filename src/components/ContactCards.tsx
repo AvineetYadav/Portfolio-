@@ -3,7 +3,7 @@ import { MdEmail } from "react-icons/md";
 
 const ContactCards = () => {
   return (
-   <div className="px-4 sm:px-10 pt-14 sm:pt-14 lg:pt-5 mb-5 font-sans bg-white text-gray-800 lg:w-[92%]  sm:w-full  lg:mt-8 mt-10">
+    <div className="px-4 sm:px-10 pt-14 sm:pt-14 lg:pt-5 mb-5 font-sans bg-white text-gray-800 lg:w-[92%]  sm:w-full  lg:mt-8 mt-10">
       {/* Title */}
       <h1 className="text-xl font-bold  mb-6 flex items-center gap-2 ml-4">
         📬 Got a Project? Git Request!
@@ -58,12 +58,18 @@ const ContactCards = () => {
           </div>
 
           {/* Email Card */}
-          <div className="flex justify-between items-center p-4 border rounded-2xl shadow lg:mb-24 md:mb-[100px] flex-wrap">
+          {/* Email Card */}
+          <div
+            className="flex justify-between items-center p-4 border rounded-2xl shadow lg:mb-24 md:mb-[100px] flex-wrap cursor-pointer"
+            onClick={() =>
+              (window.location.href = "mailto:yadavavineet@gmail.com")
+            }
+          >
             <div className="flex items-center gap-2 text-lg font-medium break-words">
               <MdEmail />
               yadavavineet@gmail.com
             </div>
-            <FaExternalLinkAlt className="text-gray-500 hover:text-black cursor-pointer mt-4 md:mt-0" />
+            <FaExternalLinkAlt className="text-gray-500 hover:text-black mt-4 md:mt-0" />
           </div>
         </div>
       </div>

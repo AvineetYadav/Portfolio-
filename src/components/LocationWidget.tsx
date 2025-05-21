@@ -3,11 +3,11 @@ import { MapPin } from "lucide-react";
 import MAP_IMG from "../assets/ChatGPT Image May 17, 2025, 12_07_59 PM.png";
 
 const LocationWidget = () => {
-  const [location] = useState("Indore, India");
+  const [location] = useState("Airport Road, Indore");
 
   const openInGoogleMaps = () => {
     window.open(
-      `https://www.google.com/maps/search/?api=1&query=Indore`,
+      `https://www.google.com/maps/place/Devi+Ahilyabai+Holkar+International+Airport,+Indore/@22.723872,75.811964,14.2z/data=!4m6!3m5!1s0x3962ff2d45d1a687:0x3d0fa6d78a741c2d!8m2!3d22.7280036!4d75.804099!16zL20vMGNxaHlw`,
       "_blank"
     );
   };
